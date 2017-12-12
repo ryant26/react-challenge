@@ -28,15 +28,15 @@ Feel free to add your personal touches or make any changes that you feel would i
 
 4. Install the app by running in a command prompt or terminal (Note: [NodeJS](https://nodejs.org/en/) needs to be installed):
 
-      ### `npm install`
-      or
-      ### `yarn install`
+      `npm install`   
+      or   
+      `yarn install`   
 
 5. Start the development environment by then running:
 
-      ### `npm start`
-      or
-      ### `yarn start`
+      `npm start`   
+      or   
+      `yarn start`   
 
 
 ## Technologies Used
