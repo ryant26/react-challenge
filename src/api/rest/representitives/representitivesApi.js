@@ -6,7 +6,7 @@ import {postcodes} from "./representitivesEndpoints";
 export const findMpByPostalCode = (postalCode) => {
     return fetchJsonp(postcodes(postalCode)).then((response) => {
         if (!response.ok) {
-            throw 'error finding representitives by postal code';
+            throw new Error('error finding representatives by postal code');
         }
 
         return response.json();

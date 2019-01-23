@@ -4,7 +4,7 @@ import './MpListItem.css'
 const MpListItem = ({MP}) => {
     return (
         <div className='MpListItem'>
-            <img src={MP.photo_url} alt='MP Image'/>
+            <img src={MP.photo_url} alt='MP'/>
             <table>
                 <tr>
                     <td className='key'>Name:</td>
