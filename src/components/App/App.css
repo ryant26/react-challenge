@@ -1,0 +1,40 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.App > .resultsArea {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+  max-width: 1000px;
+  padding: 25px;
+}
+
+.App > header {
+  margin-bottom: 10px;
+}
+
+.App > .PostalCodeInput {
+  margin-bottom: 10px;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+  align-self: stretch;
+}
+
+.App-title {
+  font-size: 1.5em;
+}

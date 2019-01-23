@@ -1,0 +1,15 @@
+/*A simple animation to indicate that something is happening.*/
+/*This animation is not color-blind friendly*/
+@keyframes Loading {
+    0%   {color:red;}
+    25%  {color:yellow;}
+    50%  {color:blue;}
+    75%  {color:green;}
+    100% {color:red;}
+}
+
+.LoadingIndicator {
+    animation-name: Loading;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}

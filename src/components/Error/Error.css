@@ -1,0 +1,9 @@
+.Error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: indianred;
+    color: black;
+    font-size: large;
+}
